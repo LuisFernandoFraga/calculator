@@ -4,9 +4,9 @@ module.exports = {
   add(request, response) {
     const {a, b} = request.body;
 
-    var soma = parseFloat(a) + parseFloat(b);
+    var add = parseFloat(a) + parseFloat(b);
 
-    return response.json({soma});
+    return response.json({add});
   },
 
   sub(request, response){
